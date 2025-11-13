@@ -8,3 +8,5 @@ st.write(
 name = st.text_input("Enter your name: ")
 if name:
     st.success(f"Hello, {name}! Welcome to the new page!")
+else:
+    st.error(f"Please enter your name...")
